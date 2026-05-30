@@ -26,7 +26,7 @@ Verify the functionality of the SauceDemo web application.
 
 ## Test Environment
 
-Browser: Google Chrome
+Browser: Morzilla Firefox
 Operating System: Windows 11
 
 ## Entry Criteria
