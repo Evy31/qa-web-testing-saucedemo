@@ -1,10 +1,38 @@
-# Test Plan
+# Test Plan – SauceDemo
 
 ## Objective
-Describe the testing objectives.
+
+Verify the functionality of the SauceDemo web application.
 
 ## Scope
-Describe what will be tested.
 
-## Test Strategy
-Describe the testing approach.
+### Included
+
+- Login
+- Product page
+- Shopping cart
+- Checkout process
+
+### Excluded
+
+- Performance testing
+- Security testing
+
+## Test Type
+
+- Functional Testing
+- Exploratory Testing
+- Smoke Testing
+
+## Test Environment
+
+Browser: Google Chrome
+Operating System: Windows 11
+
+## Entry Criteria
+
+Application is available.
+
+## Exit Criteria
+
+All planned test cases executed.
