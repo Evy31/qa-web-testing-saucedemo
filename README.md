@@ -1,140 +1,101 @@
-# qa-web-testing-saucedemo
-# QA Web Testing Project – SauceDemo
+# QA Manual Testing Project – SauceDemo
 
-## Project Overview
+##  Overview
 
-This project demonstrates manual testing of the SauceDemo web application.
-It includes test case design, execution, defect reporting, and enhancement suggestions based on real test results.
+This project demonstrates manual QA testing applied to the SauceDemo web application.
+It simulates a real-world QA workflow including test design, execution, defect reporting, and enhancement identification.
 
-The goal of this project is to simulate a real QA workflow, including functional testing, negative testing, and exploratory testing.
-
----
-
-## Application Under Test
-
-* Application: SauceDemo
-* URL: https://www.saucedemo.com/
-* Type: Web Application (E-commerce Demo)
+The goal is to validate core e-commerce functionalities and document results in a structured and professional way.
 
 ---
 
-## Scope of Testing
+##  Application Under Test
 
-### Included
+* **Application:** SauceDemo
+* **URL:** https://www.saucedemo.com/
+* **Type:** Web-based e-commerce demo application
+
+---
+
+##  Scope of Testing
+
+### Covered Areas
 
 * Login functionality
 * Product listing and sorting
 * Product details page
-* Shopping cart functionality
+* Shopping cart operations
 * Checkout process
 
-### Excluded
+### Testing Types
 
-* Performance testing
-* Security testing
-* Backend/API validation
-
----
-
-## Tools Used
-
-* Microsoft Excel Online (Test Cases & Reports)
-* GitHub (Version Control & Documentation)
-* Mozilla Firefox (Test Browser)
-* Screenshot tool (Evidence capture)
+* Functional Testing
+* Negative Testing
+* Validation Testing
+* Exploratory Testing
+* End-to-End Testing
 
 ---
 
-## Test Design
+##  Test Summary
 
-A total of **30 test cases** were created covering:
-
-* Positive scenarios
-* Negative scenarios
-* Validation checks
-* Navigation flows
-* Functional testing
+* **Total Test Cases:** 30
+* **Passed:** 29
+* **Failed (Defects):** 1
+* **Blocked:** 0
 
 ---
 
-## Test Execution Summary
+##  Defect Summary
 
-| Metric           | Value |
-| ---------------- | ----- |
-| Total Test Cases | 30    |
-| Passed           | 29    |
-| Failed           | 1     |
-| Blocked          | 0     |
+### BUG-001 – Zip Code Field Validation
 
----
-
-##  Defect Report
-
-### BUG-001 – Zip Code Field Validation Issue
-
-* **Module:** Checkout
-* **Severity:** Medium
-* **Priority:** Medium
-
-### Description
-
+**Issue:**
 The Zip Code field accepts alphabetic characters instead of restricting input to numeric values.
 
-### Steps to Reproduce
+**Severity:** Medium
+**Priority:** Medium
 
-1. Add a product to the cart
-2. Proceed to checkout
-3. Enter valid First Name and Last Name
-4. Enter alphabetic characters in the Zip Code field
-5. Continue the checkout process
-
-### Expected Result
-
-The system should validate the Zip Code field and only allow numeric values.
-
-### Actual Result
-
-The system accepts alphabetic characters and allows the user to proceed.
+**Status:** Confirmed defect during execution
 
 ---
 
-##  Enhancement Requests
+##  Key Enhancements Identified
 
-During testing, several improvement opportunities were identified:
+The following improvements were suggested based on testing results:
 
+* Add validation for Zip Code field (numeric only)
+* Add validation for First Name and Last Name fields
 * Restrict checkout process when cart is empty
-* Add validation for First Name field (no numeric values)
-* Add validation for Last Name field (no numeric values)
-* Improve Zip Code field validation rules
 
-These are considered **enhancements**, not critical defects.
+These are classified as **enhancement requests**, not functional defects.
 
 ---
 
 ##  Evidence
 
-Screenshots were captured for key test scenarios such as:
+Screenshots were captured to support key test scenarios:
 
-* Successful login
-* Failed login attempts
-* Product added to cart
-* Checkout process
-* Order completion
-
----
-
-##  Key Learnings
-
-* Understanding of QA test lifecycle (Test Planning → Execution → Reporting)
-* Difference between bugs and enhancements
-* Importance of clear expected results
-* How to document defects professionally
-* How to structure a QA project in GitHub
+* Successful and failed login attempts
+* Product interactions (add/remove cart)
+* Checkout flow
+* Order confirmation
 
 ---
 
-##  Conclusion
+##  QA Approach
 
-This project demonstrates practical manual testing skills applied to a real-world-like web application, including test design, execution, defect reporting, and documentation.
+Testing was performed using a manual black-box approach focusing on:
 
-It serves as part of a QA Junior portfolio focused on manual testing fundamentals.
+* User workflows
+* Input validation
+* Functional correctness
+* Edge cases and negative scenarios
+
+---
+
+## 🚀 Conclusion
+
+This project demonstrates practical QA skills including test case design, execution, defect reporting, and structured documentation aligned with real QA workflows.
+
+It is part of a QA portfolio focused on manual testing fundamentals and software quality validation.
