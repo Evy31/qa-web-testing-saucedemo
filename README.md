@@ -1,7 +1,7 @@
 # qa-web-testing-saucedemo
 # QA Web Testing Project – SauceDemo
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates manual testing of the SauceDemo web application.
 It includes test case design, execution, defect reporting, and enhancement suggestions based on real test results.
@@ -10,7 +10,7 @@ The goal of this project is to simulate a real QA workflow, including functional
 
 ---
 
-## 🌐 Application Under Test
+## Application Under Test
 
 * Application: SauceDemo
 * URL: https://www.saucedemo.com/
@@ -18,7 +18,7 @@ The goal of this project is to simulate a real QA workflow, including functional
 
 ---
 
-## 🧪 Scope of Testing
+## Scope of Testing
 
 ### Included
 
@@ -36,7 +36,7 @@ The goal of this project is to simulate a real QA workflow, including functional
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 
 * Microsoft Excel Online (Test Cases & Reports)
 * GitHub (Version Control & Documentation)
@@ -45,7 +45,7 @@ The goal of this project is to simulate a real QA workflow, including functional
 
 ---
 
-## 🧾 Test Design
+## Test Design
 
 A total of **30 test cases** were created covering:
 
@@ -57,7 +57,7 @@ A total of **30 test cases** were created covering:
 
 ---
 
-## ▶️ Test Execution Summary
+## Test Execution Summary
 
 | Metric           | Value |
 | ---------------- | ----- |
@@ -68,7 +68,7 @@ A total of **30 test cases** were created covering:
 
 ---
 
-## 🐞 Defect Report
+##  Defect Report
 
 ### BUG-001 – Zip Code Field Validation Issue
 
@@ -98,7 +98,7 @@ The system accepts alphabetic characters and allows the user to proceed.
 
 ---
 
-## 💡 Enhancement Requests
+##  Enhancement Requests
 
 During testing, several improvement opportunities were identified:
 
@@ -111,7 +111,7 @@ These are considered **enhancements**, not critical defects.
 
 ---
 
-## 📸 Evidence
+##  Evidence
 
 Screenshots were captured for key test scenarios such as:
 
@@ -123,7 +123,7 @@ Screenshots were captured for key test scenarios such as:
 
 ---
 
-## 📊 Key Learnings
+##  Key Learnings
 
 * Understanding of QA test lifecycle (Test Planning → Execution → Reporting)
 * Difference between bugs and enhancements
@@ -133,7 +133,7 @@ Screenshots were captured for key test scenarios such as:
 
 ---
 
-## 🚀 Conclusion
+##  Conclusion
 
 This project demonstrates practical manual testing skills applied to a real-world-like web application, including test design, execution, defect reporting, and documentation.
 
